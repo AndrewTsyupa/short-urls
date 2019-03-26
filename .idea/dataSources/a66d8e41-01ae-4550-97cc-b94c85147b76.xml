@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="url-data@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="url-data">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="anonimm"/>
+    <schema id="4" parent="1" name="diplom"/>
+    <schema id="5" parent="1" name="homestead"/>
+    <schema id="6" parent="1" name="hr"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="laravel-test"/>
+    <schema id="9" parent="1" name="magaz"/>
+    <schema id="10" parent="1" name="minty"/>
+    <schema id="11" parent="1" name="mysql"/>
+    <schema id="12" parent="1" name="performance_schema"/>
+    <schema id="13" parent="1" name="saits"/>
+    <schema id="14" parent="1" name="sg_test"/>
+    <schema id="15" parent="1" name="sys"/>
+    <schema id="16" parent="1" name="two"/>
+    <schema id="17" parent="1" name="wordpress"/>
+    <schema id="18" parent="1" name="wordpress2"/>
+    <schema id="19" parent="1" name="word_db"/>
+  </database-model>
+</dataSource>
