@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1ea2cda-f665-427f-9719-c6bbbe5c7361" name="Default" comment="UrlVisit list all url vist">
+    <list default="true" id="c1ea2cda-f665-427f-9719-c6bbbe5c7361" name="Default" comment="workspace">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -164,7 +164,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -399,7 +399,7 @@
       <workItem from="1553625843694" duration="1054000" />
       <workItem from="1553627021599" duration="18910000" />
       <workItem from="1553676557846" duration="2824000" />
-      <workItem from="1553679706482" duration="2517000" />
+      <workItem from="1553679706482" duration="2589000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1553643021935</created>
@@ -422,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553681123128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="workspace">
+      <created>1553682266750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553682266750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28758000" />
+    <option name="totallyTimeSpent" value="28830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -467,7 +474,8 @@
     <MESSAGE value="update data" />
     <MESSAGE value="update UrlVisit list all url vist" />
     <MESSAGE value="UrlVisit list all url vist" />
-    <option name="LAST_COMMIT_MESSAGE" value="UrlVisit list all url vist" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -811,7 +819,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
