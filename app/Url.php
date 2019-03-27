@@ -10,9 +10,12 @@ class Url extends Model
     protected $table = 'urls';
 
     protected $fillable = [
+
         'url',
         'code',
         'count',
+        'expired',
+        'user_data',
     ];
 
 
@@ -28,7 +31,7 @@ class Url extends Model
 
     public function getShortUrl(Request $request)
     {
-        return $request->getScheme() . '://' . $request->server('SERVER_NAME') . '/' . $this->code;;
+        return $request->getScheme() . '://' . $request->server('SERVER_NAME') . '/' . $this->code;
     }
 
     public function setExpired($date)

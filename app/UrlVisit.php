@@ -59,10 +59,10 @@ class UrlVisit extends Model
         if ($data) {
 
             $arr = [
-                $data['city'],
-                $data['region'],
-                $data['country'],
-                $data['loc'],
+                ($data['city'])??'',
+                ($data['region'])??'',
+                ($data['country'])??'',
+                ($data['loc'])??'',
             ];
 
             return implode(', ', $arr);
