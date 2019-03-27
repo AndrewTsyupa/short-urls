@@ -65,7 +65,7 @@ class UrlVisit extends Model
                 ($data['loc'])??'',
             ];
 
-            return implode(', ', $arr);
+            return implode(',', $arr);
         }
 
         return '';

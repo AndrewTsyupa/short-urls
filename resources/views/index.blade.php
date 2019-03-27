@@ -19,7 +19,6 @@
                     <input type="text" class="form-control" id="url" name="url" placeholder="http://google.com"
                            value="https://gucci.com"
                            required>
-
                 </div>
                 <div class="col-3">
                     <input type="text" class="form-control" name="code" placeholder="Code, only a-z, A-Z, 0-9" value="">

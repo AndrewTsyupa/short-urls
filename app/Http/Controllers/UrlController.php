@@ -27,6 +27,8 @@ class UrlController extends Controller
         return redirect('/');
     }
 
+
+
     public function url(Request $request)
     {
 
@@ -54,9 +56,7 @@ class UrlController extends Controller
 
                     }
 
-
                 }
-
 
             });
 
@@ -94,8 +94,8 @@ class UrlController extends Controller
         if ($url) {
             $shortUrl = $url->getShortUrl($request);
             $users = UrlVisit::query()->where(['url_id' => $url->id])->orderBy('id', 'desc')->paginate(10);
-
-            return view('url_data', ['shortUrl' => $shortUrl, 'url' => $url, 'users' => $users]);
+            $all_visits = UrlVisit::all();
+            return view('url_data', ['shortUrl' => $shortUrl, 'url' => $url, 'users' => $users, 'all_visits' => $all_visits]);
         } else {
             return redirect('/');
         }
